@@ -1,0 +1,444 @@
+body{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.brand{
+    width: 150px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.header{
+    background: #3e93ff;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    border-bottom: 5px solid #cd9933;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.toggle-menu{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+    cursor: pointer;
+}
+
+.toggle-menu span{
+    width: 20px;
+    height: 2px;
+    background: white;
+    display: block;
+}
+
+
+body{
+    margin: 0;
+}
+
+th{
+    background: skyblue;
+    height: 50px;
+}
+
+td{
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.tombol{
+    grid-area: tombol;
+    background: rgb(1 67 153);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100px;
+    text-align: center; 
+}
+
+.tombol:hover{
+    
+    color: rgb(205 153 51);
+}
+
+.section{
+    margin: 140px 0;
+}
+
+.section-2{
+    display: grid;
+    grid-template-areas: "kiri gambar"
+                         "kanan gambar"
+                         "kanan tombol";
+    grid-gap:10px;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+}
+
+.kiri,.bio{
+    padding: 10px;
+}
+
+.tabel{
+    grid-area: kanan;
+}
+
+.bio{
+    grid-area: kiri;
+}
+
+.bio li {
+    list-style: none;
+}
+
+.bio ul{
+    padding: 0;
+}
+
+.gambar{
+    grid-area: gambar;
+}
+
+.section-article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 45%;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 40px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.container-box{
+    display: flex;
+}
+
+.box{
+    min-width: 100%;
+    transition: transform 1s ease;
+}
+
+.button{
+    position: absolute;
+    top:50%;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: white;
+    transition:  0.5s;
+}
+
+.button:hover{
+    background: #cd9933;
+    color: white;
+}
+.prev{
+    left: 10px;
+}
+
+.next{
+    right: 10px;
+}
+
+.section-3 {
+    font-family: Timmana;
+    box-sizing: border-box;
+}
+
+.tentang-kampus{
+    background:#004497;
+    color: white;
+}
+
+.tentang-visi{
+    background: #dbdbdb;
+}
+
+.tentang-fakultas{
+    background: #004497;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.tentang-kampus,.tentang-visi,.tentang-fakultas{
+    padding: 20px;
+}
+
+.konten-misi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.visi,.misi{
+    width: 45%;
+}
+
+.card-fakultas{
+    width: 45%;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.konten-fakultas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.section-4{
+    font-family: Timmana;
+    box-sizing: border-box;
+    padding: 20px;
+    background: url(usti.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slides{
+    overflow: hidden;
+}
+
+.slidee{
+    display: flex;
+    margin: 10px;
+    transition: transform 1s;
+    height: 150px;
+}
+
+.photo{
+    width: 10%;
+}
+
+.estimasi{
+    color: white;
+    background: #004497;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 14px;
+    font-family: cursive;
+    width: 80%;
+    border: 3px solid #cd9933;
+}
+
+.footer{
+    background: #cd9933;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer span{
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color:white;
+    margin: 10px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.footer li {
+    list-style:none;
+}
+
+
+.footer-2 li{
+    font-size: 12px;
+    
+}
+
+.footer-3{
+    font-size: 12px;
+    text-align: center;
+}
+
+.brand-footer{
+    background: url(logo1.png);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width:768px){
+    .section-article{
+        display: block;
+    }
+    
+    .card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .section-2{
+        grid-template-areas: "kiri"
+                             "kanan"
+                             "gambar"
+                             "tombol";
+        grid-template-columns: 1fr;
+    }
+
+    .header{
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    .navbar {
+        height: 100vh;
+        background:#3e93ff;
+        position: absolute;
+        left: -65%;
+        width: 60%;
+        top: 100%;
+        padding: 25px;
+        transition: 0.2s;
+        box-sizing: border-box;
+        
+    }
+
+    .slide{
+        left: 0;
+    }
+
+
+    .toggle-menu{
+        display: flex;
+    }
+
+    .navbar li {
+        display: block;
+        margin: 10px 0;
+        padding: 8px;
+        border-bottom: 2px solid white;
+    }
+
+    .footer{
+        position: static;
+        display: block;
+    }
+
+    .footer-3{
+        text-align: center;
+        display: flex;
+        justify-content: end;
+    }
+
+    .section-article{
+        display: block;
+    }
+
+    .card{
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    th,td{
+        font-size: 11px;
+    }
+
+    .container{
+        width: 95%;
+    }
+
+    .konten-fakultas{
+        display: block;
+    }
+
+    .card-fakultas{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .konten-misi{
+        display: block;
+    }
+
+    .visi,.misi{
+        width: 100%;
+    }
+
+    .slidee{
+        height: 310px;
+    }
+
+    .slidee{
+        margin: 25px 0;
+    }
+
+
+}

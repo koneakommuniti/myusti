@@ -1,0 +1,14 @@
+{
+    "mahasiswa" : [
+        {
+            "nama" : "syahru rozi",
+            "nim" : "1810031806034",
+            "fakultas" : "sistem informasi"
+        },
+        {
+            "nama" : "sadam mavick",
+            "nim" : "1810031806034",
+            "fakultas" : "sistem informasi"
+        }
+    ]
+}
